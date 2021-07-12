@@ -29,7 +29,7 @@ const Product = ({ id, title, image, rating, price }) => {
         {Array(rating)
           .fill()
           .map((_) => (
-            <p>:star</p>
+            <p>✨</p>
           ))}
       </div>
       </div>
