@@ -5,7 +5,7 @@ import CheckoutView from '../view/checkoutView'
 const Index=()=>{
 return(
     <Switch>
-        <Route component={Home} path={["/home" || "/"]}/>
+        <Route component={Home} exact path={["/home" || "/"]}/>
         <Route component={CheckoutView} path= {"/checkout" }/>
     </Switch>
 )
